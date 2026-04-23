@@ -18,7 +18,14 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 ##### AI GPTs used
 
 ## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
+1. Connect the ESP32-CAM to your computer using a USB cable.
+2. Open Arduino IDE and select AI-Thinker ESP32-CAM as the board.
+3. Open the CameraWebServer example sketch and complete the required including Wi-Fi configuration settings.
+4. Upload the sketch, open the Serial Monitor, set the baud rate to 115200, then press the Reset button on the board. If successful, the device will connect to Wi-Fi and display Camera Ready! with its assigned IP address.
+5. On a computer or phone connected to the same Wi-Fi network, enter the IP address into a web browser.
+
+You will then access the camera web interface. Click Start Stream to view the live video feed.
+
 
 ## Problems and Solutions
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
